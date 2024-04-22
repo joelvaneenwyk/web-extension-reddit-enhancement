@@ -20,13 +20,16 @@
 [options]
 module.use_strict=true
 
-esproposal.export_star_as=enable
-esproposal.optional_chaining=enable
+# joelvaneenwyk: Unsupported option in latest
+# esproposal.export_star_as=enable
+# esproposal.optional_chaining=enable
 
 suppress_type=$FlowIssue
 suppress_type=$FlowIgnore
-suppress_comment=\\(.\\|\n\\)*\\$FlowIssue
-suppress_comment=\\(.\\|\n\\)*\\$FlowIgnore
+
+# joelvaneenwyk: Unsupported option in latest
+# suppress_comment=\\(.\\|\n\\)*\\$FlowIssue
+# suppress_comment=\\(.\\|\n\\)*\\$FlowIgnore
 
 [version]
 0.84.0
