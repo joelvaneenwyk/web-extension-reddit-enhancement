@@ -1,3 +1,6 @@
+# joelvaneenwyk: save settings
+.yarn/
+
 ## General ##
 node_modules/
 npm-debug.log*
@@ -27,7 +30,6 @@ yarn-error.log*
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -73,8 +75,10 @@ $RECYCLE.BIN/
 .nyc_output
 
 ## Visual Studio ##
-.vscode
 .vs
+
+# joelvaneenwyk: Save VSCode settings
+# .vscode
 
 ## NPM package lock ##
 package-lock.json
