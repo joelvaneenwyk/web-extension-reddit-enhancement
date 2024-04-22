@@ -18,7 +18,7 @@ jobs:
           node-version: "21"
 
       - run: npm install -g corepack
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
 
       - run: yarn flow check --show-all-errors
       - run: yarn eslint
@@ -34,7 +34,7 @@ jobs:
           node-version: "21"
 
       - run: npm install -g corepack
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
 
       - run: yarn build --browsers=all
 
@@ -59,8 +59,8 @@ jobs:
         with:
           node-version: "21"
 
-      - run: npm install -g corepack
-      - run: yarn install --frozen-lockfile
+      - run: npm install --force -g corepack
+      - run: yarn install --immutable
 
       - run: yarn test
       - run: yarn build --browsers=all
