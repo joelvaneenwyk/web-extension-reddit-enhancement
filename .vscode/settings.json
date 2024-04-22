@@ -1,0 +1,12 @@
+{
+    "yaml.schemas": {
+        "https://taskfile.dev/schema.json": [
+            "**/Taskfile.yml",
+            "**/taskfile.yml",
+            "**/taskfile.yaml"
+        ],
+        "https://json.schemastore.org/dependabot-2.0.json": "dependabot.yml",
+        "file:///c%3A/Users/JoelVanEenwyk/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://json.schemastore.org/github-workflow.json": "vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a352c226964223a22646576656c6f70227d7d/joelvaneenwyk/web-extension-reddit-enhancement/.github/workflows/pipeline.yml"
+    }
+}
