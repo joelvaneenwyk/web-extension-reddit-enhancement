@@ -2,11 +2,11 @@ name: RES Pipeline
 
 on:
   push:
-    branches:
-    - master
+    branches: [main, develop, feature/**, release/**, dependabot/**]
     tags:
       - v*.*.*
   pull_request:
+    branches-ignore: [main, develop, feature/**, release/**, dependabot/**]
 
 jobs:
   lint_flow:
