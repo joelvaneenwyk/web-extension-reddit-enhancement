@@ -43,6 +43,7 @@
 		"flowtype/valid-syntax": 2,
 
 		"you-dont-need-lodash-underscore/throttle": 0,
+		"you-dont-need-lodash-underscore/clone-deep": 0,
 
 		"dollar-sign/dollar-sign": [2, "ignoreProperties"],
 
