@@ -3017,12 +3017,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-you-dont-need-lodash-underscore@npm:6.13.0":
-  version: 6.13.0
-  resolution: "eslint-plugin-you-dont-need-lodash-underscore@npm:6.13.0"
+"eslint-plugin-you-dont-need-lodash-underscore@npm:6.14.0":
+  version: 6.14.0
+  resolution: "eslint-plugin-you-dont-need-lodash-underscore@npm:6.14.0"
   dependencies:
     kebab-case: "npm:^1.0.0"
-  checksum: 10c0/5990d24745f38f110ad7ce61ac6f358fbd1a119412a2aed7ece3b8a86555636d4c591af2e81858e64903631e7506412eaa4369825d69b69a4029a0339f759551
+  checksum: 10c0/23dadc91b754b9afdd5c9d87509f21e1c627888dc8a5e34c3d3181521ce9c5e87b4d1f5c693413d857e7fbb6e54b6d471adb1ee1e912fc8824a982f1762a11e0
   languageName: node
   linkType: hard
 
@@ -6570,7 +6570,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-no-useless-assign: "npm:1.0.3"
     eslint-plugin-prefer-spread: "npm:1.0.3"
-    eslint-plugin-you-dont-need-lodash-underscore: "npm:6.13.0"
+    eslint-plugin-you-dont-need-lodash-underscore: "npm:6.14.0"
     fast-levenshtein: "npm:3.0.0"
     favico.js: "npm:0.3.10"
     firefox-extension-deploy: "npm:1.1.2"
