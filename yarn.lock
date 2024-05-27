@@ -227,6 +227,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-plugin-utils@npm:^7.24.6":
+  version: 7.24.6
+  resolution: "@babel/helper-plugin-utils@npm:7.24.6"
+  checksum: 10c0/636d3ce8cabc0621c1f78187e1d95f1087209921fa452f76aad06224ef5dffb3d934946f5183109920f32a4b94dd75ac91c63bc52813fee639d10cd54d49ba1f
+  languageName: node
+  linkType: hard
+
 "@babel/helper-replace-supers@npm:^7.22.20":
   version: 7.22.20
   resolution: "@babel/helper-replace-supers@npm:7.22.20"
@@ -359,6 +366,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-syntax-flow@npm:^7.24.6":
+  version: 7.24.6
+  resolution: "@babel/plugin-syntax-flow@npm:7.24.6"
+  dependencies:
+    "@babel/helper-plugin-utils": "npm:^7.24.6"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 10c0/98b2c72a473f01590b19635c25eebda3a4507d3fedb77a39c3b8adcbb4c65ba86e1ff3aace66c9ef2524d8aa46e19537f40643fddbd0e983056ec0ca5be7be65
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-syntax-import-attributes@npm:7.23.3":
   version: 7.23.3
   resolution: "@babel/plugin-syntax-import-attributes@npm:7.23.3"
@@ -426,7 +444,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-flow-strip-types@npm:7.23.3, @babel/plugin-transform-flow-strip-types@npm:^7.23.3":
+"@babel/plugin-transform-flow-strip-types@npm:7.24.6":
+  version: 7.24.6
+  resolution: "@babel/plugin-transform-flow-strip-types@npm:7.24.6"
+  dependencies:
+    "@babel/helper-plugin-utils": "npm:^7.24.6"
+    "@babel/plugin-syntax-flow": "npm:^7.24.6"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 10c0/07653a8473ca8479859b4255643db0271759430e6588ef66235c777bf4480d4c271a4e11d2d2c1f23c40e73bef70abca8ee344c4ea4c9f70cbbbe3b9f4683d6d
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-flow-strip-types@npm:^7.23.3":
   version: 7.23.3
   resolution: "@babel/plugin-transform-flow-strip-types@npm:7.23.3"
   dependencies:
@@ -6549,7 +6579,7 @@ __metadata:
     "@babel/eslint-parser": "npm:7.24.1"
     "@babel/plugin-syntax-flow": "npm:7.23.3"
     "@babel/plugin-syntax-import-attributes": "npm:7.23.3"
-    "@babel/plugin-transform-flow-strip-types": "npm:7.23.3"
+    "@babel/plugin-transform-flow-strip-types": "npm:7.24.6"
     "@babel/plugin-transform-react-jsx": "npm:^7.23.4"
     "@babel/register": "npm:7.23.7"
     ava: "npm:6.1.2"
