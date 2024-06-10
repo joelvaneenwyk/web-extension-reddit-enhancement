@@ -3440,12 +3440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-bin@npm:0.84.0":
-  version: 0.84.0
-  resolution: "flow-bin@npm:0.84.0"
+"flow-bin@npm:0.237.2":
+  version: 0.237.2
+  resolution: "flow-bin@npm:0.237.2"
   bin:
     flow: cli.js
-  checksum: 10c0/c4b13c89ac0db2484cbeabb8ed538009b55ac104d0c65593105b44316b83f1a2b824d0c326bcd2e747be30f3a84a1e318bfc6b88e9a7c8ae4f3089b44253f9b7
+  checksum: 10c0/f529ab723f52aa6ab3ea5f5740cef17fd22a757a4259d1a142517b2b0a4d4d1684f8a75454350d329a30b4bb14d4ee9e04fe8a275340b70ef19a0f54e148ec3a
   languageName: node
   linkType: hard
 
@@ -6574,7 +6574,7 @@ __metadata:
     fast-levenshtein: "npm:3.0.0"
     favico.js: "npm:0.3.10"
     firefox-extension-deploy: "npm:1.1.2"
-    flow-bin: "npm:0.84.0"
+    flow-bin: "npm:0.237.2"
     flow-remove-types: "npm:2.230.0"
     jquery: "npm:3.7.1"
     jscodeshift: "npm:0.15.2"
